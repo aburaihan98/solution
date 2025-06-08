@@ -1,12 +1,3 @@
-function concatenateArrays<T>(...arrays: T[][]): T[] {
-  const allAreArrays = arrays.flat();
-
-  return allAreArrays;
-}
-
-// console.log(concatenateArrays<string>(["a", "b"], ["c"]));
-// console.log(concatenateArrays<number>([1, 2], [3, 4], [5]));
-
 class Vehicle {
   private make: string;
   private year: number;
