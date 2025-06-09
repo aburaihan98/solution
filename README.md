@@ -31,9 +31,9 @@ email: string;
 
 // Final type:
 const user: User = {
-name: "John",
+name: "Abu Raihan",
 age: 30,
-email: "john@example.com",
+email: "aburaihan.com",
 };
 
 ✅ When to use type?
